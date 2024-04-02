@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 5px;
+    box-sizing: border-box;
+    font-family:courier;
+}
+nav{
+    display: flex;
+   
+    padding: 2%;
+    justify-content: space-between;
+    background-color:#4535AA;
+    text-color:#FFFFFF;
+    flex-direction:row;
+}
+#nav-options a{
+    text-decoration:none;
+    padding:5px 10px;
+    border-radius:5px;
+    text-color:black;
+    background-color:#FFB643;
+    
+
+}
+
+@media (max-width:650px){
+    nav{
+        flex-direction: column;
+    }
+    #nav-options a{
+        font-size:0.75em;
+    }
+    #personal{
+        flex-direction: column;
+    }
+    #portfolio{
+        flex-direction:column;
+    }
+}
+#personal
+{
+    display: flex;
+    padding: 30px;
+    background-color: black;
+}
+.user-info{
+    color:#EEE;
+    flex: 2;
+    
+}
+.user-pic{
+    padding:40px;
+    flex-direction: row;
+
+}
+.user-info p{
+    color:#FFB643;
+    flex:1;
+}
+
+  
+.img-responsive{
+    height: 100%;
+    width: auto;
+}
+.img-circle{
+
+    border-radius: 50%;
+}
+#portfolio{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    text-align: center;
+    padding:5%;
+}
+.project-name {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+.project-detail{
+    margin:10px;
+    flex:1;
+    height:80%;
+}
+.project-info {
+    font-size: 0.85em;
+    margin-top: 20px;
+}
+.contact-us
+		{
+			display: flex;
+			justify-content: center;
+			background-color: #000;
+			width:100%;
+			padding: 30px;
+		}
+		.contact-fields {
+			margin:10px;
+		}
+		input, textarea {
+			padding:5px;
+		}
+		button {
+			padding: 5px;
+			background-color: #FFB643;
+			border:0;
+			border-radius: 5px;
+			cursor:pointer;
+		
+		}
+		/* social section */
+		#social {
+			background-color: #000;
+			color: #fff;
+			padding: 40px;
+			text-align:center;
+		}
+		.social-icon {
+			padding-right: 10px;
+			color: #FFB643;
+		}
+		/* common styling */
+		.img-responsive {
+			width: 100%;
+			height: auto;
+		}
+		.section-heading {
+			text-align: center;
+			padding: 10px;
+			font-size:25px;
+			background-color: #ED639E;
+			color: #FFF;
+		}
+        
+		#work{
+            
+        }
